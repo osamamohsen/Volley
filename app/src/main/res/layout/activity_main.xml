@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.osama.volley.MainActivity">
+
+    <TextView
+        android:id="@+id/txt_responsse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Server Response"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:text="Get Server Data"
+        android:id="@+id/btn_response"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Next Activity"
+        android:id="@+id/btn_next"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
